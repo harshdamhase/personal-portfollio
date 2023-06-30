@@ -27,20 +27,39 @@ nav ul li {
     list-style: none;
     margin: 0 30px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+ color: aqua;
+ font-size: 20px;
+} 
+
+.purple{
+color: rgb(238, 14, 238);
+
+}
 
 .left {
     font-size: 1.5rem;
 }
 
-.firstsection div {
-    width: 30%;
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    margin-top: 20px;
 }
 
 .leftsection {
-    background-color: red;
-    width: 34px;
+
+    font-size: 3rem;
+    
 }
 
-.rightsection {
-
+.rightsection img{
+   width: 300px;
+   margin: 50px 0;
 }
